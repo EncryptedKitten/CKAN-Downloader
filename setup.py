@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
 	name='CKAN-Downloader-EncryptedKitten',
-	version='0.0.2',
+	version='0.0.3',
 	author='EncryptedKitten',
 	author_email='carterdwatson@gmail.com',
 	description='A tool to download all of The Comprehensive Kerbal Archive Network (https://github.com/KSP-CKAN/CKAN).',

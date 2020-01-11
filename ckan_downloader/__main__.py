@@ -329,6 +329,7 @@ def download_mod_repos(ckan_repo_tarfiles):
 				#If it is the repositories.json file, it will be edited to change the paths to the LOCAL_DOWNLOAD_ROOT.
 				elif os.path.basename(tarinfo.name) == 'repositories.json':
 					repositories_file = json.load(tf)
+					tf.seek(0)
 
 					for repositories_file_section in repositories_file['repositories']:
 
