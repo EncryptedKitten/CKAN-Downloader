@@ -1,1 +1,2 @@
 # CKAN-Downloader
+A tool to download all of The [Comprehensive Kerbal Archive Network](https://github.com/KSP-CKAN/CKAN). It is avalible on PyPI at [https://pypi.org/project/CKAN-Downloader-EncryptedKitten/](https://pypi.org/project/CKAN-Downloader-EncryptedKitten/) and can be installed with `pip install CKAN-Downloader-EncryptedKitten`.
