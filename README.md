@@ -2,7 +2,7 @@
 A tool to download all of The [Comprehensive Kerbal Archive Network](https://github.com/KSP-CKAN/CKAN).
 It is avalible on PyPI at [https://pypi.org/project/CKAN-Downloader-EncryptedKitten/](https://pypi.org/project/CKAN-Downloader-EncryptedKitten/) and can be installed with `pip install CKAN-Downloader-EncryptedKitten`.
 ## Usage
-Run it with the `-h` flag to see the options.
+Run it with `python -m ckan_downloader` and use the `-h` flag to see the options.
 It will output all of the files to the save path, and in the local CKAN repos will be in the repositories subdirectory.
 The script defaults to outputting the files to 'CKAN Archive' in the current directory and using http://localhost as the host for the CKAN repo.
 
